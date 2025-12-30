@@ -1,14 +1,15 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Header from "./_components/Header";
+import Hero from "./_components/Hero";
 
 export default function Home() {
   return (
-    <>
+    <div className="bg-white min-h-screen ">
       <Header />
-      <h1>Welcome to expense tracker</h1>
-      <Button variant="outline">Get Started</Button>
+      <Hero/>
+      
 
-    </>
+    </div>
   );
 }
