@@ -1,5 +1,6 @@
 import React from "react";
 import SideNav from "../_components/SideNav";
+import DashBoardHeader from "../_components/DashBoardHeader";
 
 const DashboardLayout = ({ children }) => {
     return (
@@ -7,7 +8,10 @@ const DashboardLayout = ({ children }) => {
             <div className="fixed md:w-64 hidden md:block">
                 <SideNav />
             </div>
-            <div className="md:ml-64"> {children} </div>
+            <div className="md:ml-64"> 
+                <DashBoardHeader />
+                {children} 
+            </div>
         </div>
     );
 };
