@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { LayoutGrid, PiggyBank, ReceiptText, ShieldCheck } from 'lucide-react';
+import { LayoutGrid, PiggyBank, ReceiptText, ShieldCheck, User } from 'lucide-react';
 
 const SideNav = () => {
 
@@ -44,7 +44,7 @@ const SideNav = () => {
         </div>
 
         <div className="mt-10">
-            
+            <UserButton />
         </div>
     </div>
   )
