@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react'
 import dashboardImage from '../../public/dashboard.jpeg';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -22,12 +23,12 @@ const Hero = () => {
                   </p>
 
                   <div className="mt-4 flex gap-4 sm:mt-6">
-                      <a
+                      <Link
                           className="inline-block rounded border border-indigo-600 bg-indigo-600 px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-indigo-700"
-                          href="#"
+                          href="/sign-in"
                       >
                           Get Started
-                      </a>
+                      </Link>
 
                       <a
                           className="inline-block rounded border border-gray-200 px-5 py-3 font-medium text-gray-700 shadow-sm transition-colors hover:bg-gray-50 hover:text-gray-900"
