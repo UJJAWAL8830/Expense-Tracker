@@ -34,3 +34,28 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+It uses next.js which is the react framework for server side rendering and static site generation.
+
+## Features
+- User Authentication
+- Expense Tracking
+- Budget Management
+- Data Visualization with Charts
+- Responsive Design for Mobile and Desktop
+- Data Persistence with a Database
+- Emoji Picker for Budget Icons
+- Dark Mode Support
+- Multi-Currency Support
+- Export Data to CSV
+- Recurring Expenses and Budgets
+- Notifications and Reminders
+- User Profile Management
+- Search and Filter Expenses
+- Integration with Third-Party APIs
+- PWA Support for Offline Access
+- Localization and Multi-Language Support
+- Accessibility Features
+- Cloud Backup and Sync
+- Role-Based Access Control for Multi-User Support
