@@ -25,7 +25,7 @@ const CreateBudget = () => {
                       <DialogTitle>Create New Budget</DialogTitle>
                       <DialogDescription>
                           <div>
-                            <EmojiPicker />
+                            
                           </div>
                       </DialogDescription>
                   </DialogHeader>
